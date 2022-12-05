@@ -6,7 +6,7 @@
 - 커널 영역의 기능을 사용자가 운영체제에게 요청을 해서 사용 가능하도록(프로세스가 하드웨어에 직접 접근해서 필요한 기능을 사용할 수 있도록)해줌
 - 시스템 콜을 하면 사용자 모드에서 커널 모드로 변경됨
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/126a77f6-5767-4439-b64f-12425d67b8a3/Untitled.png)
+![image](https://user-images.githubusercontent.com/116533378/205647746-cfb95448-15e1-44b5-88ff-11a71466803b.png)
 
 - 커널 모드와 사용자 모드로 구분된 이유
     - 보안과 안전성을 위함
