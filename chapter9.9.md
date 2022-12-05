@@ -20,7 +20,7 @@
     - 성공: 이전 brk 반환
     - 실패: -1 반환, errno를 ENOMEM으로 설정
         
-        ![IMG_0010.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80fb5814-87bc-40e3-8ccd-a86ac302928e/IMG_0010.jpg)
+![image](https://user-images.githubusercontent.com/116533378/205648608-2008ba2f-faa2-407e-8a87-96e1ad45dd3d.png)
         
 
 ### 9.9.3 할당기 요구사항과 목표
@@ -59,7 +59,7 @@
     
     → 하위 3비트에 가용/할당 상태 표시
     
-    ![IMG_0011.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dff9cf3d-387e-4f90-82dc-9ace76fdf349/IMG_0011.jpg)
+![image](https://user-images.githubusercontent.com/116533378/205648688-4de02e29-9dfa-42fa-b2ca-aeb5f000354a.png)
     
 
 ### 9.9.7 할당한 블록의 배치
@@ -114,7 +114,7 @@
 3. 이전 블록은 가용상태, 다음 블록은 할당상태
 4. 이전 블록과 다음 블록 모두 가용상태
 
-![IMG_0008.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/009043ad-d301-421f-a405-36c169b0e219/IMG_0008.jpg)
+![image](https://user-images.githubusercontent.com/116533378/205648762-f8499b03-0d1a-435f-ae15-fff5e7a5b08a.png)
 
 단점: 작은 크기의 블록을 다룰때 메모리 오버헤드가 발생할 수 있음
 
@@ -123,3 +123,4 @@
 ### 9.9.12 종합설계
 
 - 묵시적 가용 리스트의 불변 형식
+![image](https://user-images.githubusercontent.com/116533378/205648848-fe25978b-801f-4dd5-b39c-b3aefa66e3f7.png)
