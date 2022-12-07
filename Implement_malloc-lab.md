@@ -1,6 +1,10 @@
 <br>
 
-## 📂 File structure
+## ☁️ Overview
+
+<br>
+
+### 📂 File structure
 
 ```bash
 malloc-lab
@@ -44,9 +48,10 @@ malloc-lab
 <br>
 
 - 할당기의 블록 포맷
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67afa16c-f499-4028-9dec-da6373175d8c/Untitled.png)
+<img src="https://user-images.githubusercontent.com/67156494/206301734-a073d4b5-0bb1-4a11-b350-bf841b68f7fc.png" width=400>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/861959a7-f0dc-4491-8bca-1940e9b1be6e/Untitled.png)
+![image](https://user-images.githubusercontent.com/67156494/206301795-b904ecb9-25b7-4fe3-9921-925b91ed6dac.png)
+
 
 - 정렬 조건 : 더블 워드(8byte)
 - 최소 블록 크기 : 16바이트
@@ -328,7 +333,7 @@ static void *coalesce(void *bp)
 
 <br>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67be0480-37e2-41ff-b7dc-309eafedfeb5/Untitled.png)
+<img src="https://user-images.githubusercontent.com/67156494/206301905-0f83743a-16a9-4509-aadf-65c76085cc22.png" width=300>
 
 <br>
 
@@ -696,7 +701,10 @@ void *mm_realloc(void *ptr, size_t size)
 
   - `memcpy` 를 쓸 경우, 메모리 겹침 관련 에러가 나서 `memmove` 로 바꿔줬다!
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5e72e08-7482-4608-832b-f7b38493b39e/Untitled.png)
+<br>
+
+<img src="https://user-images.githubusercontent.com/67156494/206302007-3e4d1d98-cb13-4c19-b618-4f200debe861.png" width=600>
+
 
 - `memcpy` 🆚 `memmove`
 
