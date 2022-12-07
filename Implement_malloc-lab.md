@@ -628,7 +628,7 @@ static void place(void *bp, size_t asize)
 
 <br>
 
-### 4-1. `mm_realloc(bp, size)`
+### 5-1. `mm_realloc(bp, size)`
 
 <br>
 
