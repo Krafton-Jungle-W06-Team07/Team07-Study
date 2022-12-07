@@ -10,7 +10,7 @@
 - 추가적인 가상메모리를 런타임에 획득할 필요가 있을 때 동적 메모리 할당을 사용한다.
   - _편리성, 호환성_
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b440f57c-7a4c-401a-95fe-664a2c973d96/Untitled.png)
+<img src="https://user-images.githubusercontent.com/67156494/206295925-5ca0bd33-2d0d-41e3-a26b-c71fb97fbd43.png" width=300>
 
 - 힙(heap)을 관리한다.
   - 프로세스의 가상메모리 영역
@@ -72,11 +72,11 @@
 
 - `malloc`
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8b48768b-bfe9-4111-80d3-2012dec3ed69/Untitled.png)
+<img src="https://user-images.githubusercontent.com/67156494/206296078-288d8325-7bab-48b8-8eaf-64fdf33fa606.png" width=800>
 
 <br>
 
-- 어떤 종류의 데이터 객체에 대해서 적절히 정렬된 최소 `size` 바이트를 갖는 메모리 블록의 포인터 리턴한다.
+- 어떤 종류의 데이터 객체에 대해서 적절히 정렬된 최소 `size` 바이트를 갖는 메모리 블록의 포인터를 리턴한다.
 
 <br>
 
@@ -129,7 +129,7 @@ _ errno(3) - Linux manual page
 
 - `sbrk`
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70cca016-3f3a-4908-a0f3-cb6faa05a85d/Untitled.png)
+<img src="https://user-images.githubusercontent.com/67156494/206296202-afd8f481-1315-4b5d-a269-8287c0260383.png" width=800>
 
 <br>
 
@@ -152,7 +152,7 @@ _ errno(3) - Linux manual page
 
 - `incr` 을 음수로 설정했을 때
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1eb2457c-231b-499c-95d0-54101fc00fb1/Untitled.png)
+<img src="https://user-images.githubusercontent.com/67156494/206296291-d966e4c1-80e2-42ea-b672-a4068cca42c0.png" width=800>
 
 <br>
 
@@ -163,8 +163,7 @@ _ errno(3) - Linux manual page
 ---
 
 - `free`
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2244e2c-ca63-4035-aa8f-f1f1f5da2042/Untitled.png)
+<img src="https://user-images.githubusercontent.com/67156494/206296347-921c05b0-0323-49fd-8f5b-5a88a754ecd7.png" width=800>
 
 <br>
 
@@ -173,7 +172,7 @@ _ errno(3) - Linux manual page
 
 <br>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/42f38cde-f2da-48df-883a-9f5053bde3bb/Untitled.png)
+<img src="https://user-images.githubusercontent.com/67156494/206296398-41ef286b-74c0-4e22-aa4e-3623a4260d45.png" width=800>
 
 - `free` 는 아무것도 리턴하지 않기 때문에 애플리케이션에게 메모리 상의 오류를 알릴 방법이 없다.
   <br>
@@ -281,7 +280,7 @@ $$ U*k = \frac {max*{i <= k}\quad P_i} {H_k} $$
 
 ## 9.9.4 Fragmentation
 
-- 단편화(Fragmentation) : 가용 메모리가 할당 요청을 만족시키기에는 가용하지 않았을 때 발생(가용 블록이 충분히자 않은 상태)
+- 단편화(Fragmentation) : 가용 메모리가 할당 요청을 만족시키기에는 가용하지 않았을 때 발생(가용 블록이 충분하지 않은 상태)
 
   - 내부 단편화(Internal fragmentation)
   - 외부 단편화(external fragmentation)
@@ -295,7 +294,8 @@ $$ U*k = \frac {max*{i <= k}\quad P_i} {H_k} $$
 
 <br>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/979b5454-89ae-4931-bd9d-b82f015f9878/Untitled.png)
+![image](https://user-images.githubusercontent.com/67156494/206296694-ccc99dbc-29a6-4925-b967-00c30f06ae09.png)
+
 
 _(Ch 9.9.1 이미지 참조)_
 
@@ -312,7 +312,7 @@ _(Ch 9.9.1 이미지 참조)_
 
 <br>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8dbaa2b1-1f56-4839-a450-3db7f794526a/Untitled.png)
+![image](https://user-images.githubusercontent.com/67156494/206296757-a655cf31-eef4-4874-836f-e4a8c2aa246c.png)
 
 _(Ch 9.9.1 이미지 참조)_
 
@@ -384,7 +384,7 @@ Ex. 만약 (e) 요청에 2워드가 아니라 8워드였다면 힙에 있는 전
 
 <br>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19f09f68-e80a-43a2-95c4-fbfd4167b32f/Untitled.png)
+![image](https://user-images.githubusercontent.com/67156494/206296831-59ae1734-822e-4b9b-92a4-766bf627321d.png)
 
 _(힙 블록 하나의 포맷)_
 
@@ -427,7 +427,7 @@ _(힙 블록 하나의 포맷)_
 
 <br>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/61fe50fe-9833-482f-9404-e54aba3145a2/Untitled.png)
+![image](https://user-images.githubusercontent.com/67156494/206296917-77d2d617-e722-47ac-93fa-6b06a7b2565b.png)
 
 _(묵시적 가용 리스트로 힙 표현)_
 
@@ -485,7 +485,7 @@ Ex. 힙에 “더블 워드 정렬 제한 조건”을 적용 시
 
 <br>
 
-애플리케이션이 k바이트의 블록을 요청할 때 할당기는 요청한 블록을 저장하기에 충분히 큰 가용 브록을 리스트에서 검색한다.
+애플리케이션이 k바이트의 블록을 요청할 때 할당기는 요청한 블록을 저장하기에 충분히 큰 가용 을 리스트에서 검색한다.
 
 <br>
 
@@ -612,7 +612,7 @@ while ((p < end) &&     \\\\ not passed end
 
 <br>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/95382da3-ae66-498a-ace0-0e239d499bcb/Untitled.png)
+![image](https://user-images.githubusercontent.com/67156494/206297056-7c18bef4-c5be-4349-9ced-95915bbe08ae.png)
 
 _(오류 단편화가 발생하는 경우)_
 
@@ -683,14 +683,15 @@ _(오류 단편화가 발생하는 경우)_
 
 <br>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4795fca-13d1-4b8b-950b-108e6a0d8b4e/Untitled.png)
+![image](https://user-images.githubusercontent.com/67156494/206297145-8bfa96e4-dc38-4e36-839e-1627d83ccf72.png)
 
 - 각 부분의 끝 부분에 footer(경계 태그)를 추가한다.
   - footer : 헤더를 복사하여 만들 수 있다.
 
 <br>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31c80372-4cf7-42f4-940d-ce31ca134c05/Untitled.png)
+<img src="https://user-images.githubusercontent.com/67156494/206297198-b6153e26-c698-45ef-9390-35b9819d788e.png" width=300>
+
 
 <br>
 
@@ -727,7 +728,7 @@ _(오류 단편화가 발생하는 경우)_
 
 <br>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67be0480-37e2-41ff-b7dc-309eafedfeb5/Untitled.png)
+<img src="https://user-images.githubusercontent.com/67156494/206297358-d9bcb065-b0b1-4ae0-9a34-cf1f7d13319e.png" width=300>
 
 <br>
 
